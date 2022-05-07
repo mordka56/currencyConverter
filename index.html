@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walut</legend>
+
+            <input placeholder="Wpisz kwotę" type="number" min="0" class="form__input js-input">
+            <select name="waluta" class="form__select js-first">
+                <option value="1">PLN</option>
+                <option value="4.67">EUR</option>
+                <option value="4.43">USD</option>
+                <option value="5.57">GBP</option>
+            </select>
+
+            <p>
+                <input name="number" type="number" min="0" disabled class="form__output js-output">
+                <select name="waluta" class="form__select js-second">
+                    <option value="1">PLN</option>
+                    <option value="4.67">EUR</option>
+                    <option value="4.43">USD</option>
+                    <option value="5.57">GBP</option>
+                </select>
+
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
