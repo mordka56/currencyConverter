@@ -1,26 +1,21 @@
 .form {
-    background-image: url("../images/backgroundimage.jpg");
+    background-image: url("../images/backgroundimage4.PNG");
+    background-size: 100%;
     border: none;
     margin: auto;
     max-width: 300px;
-
-}
-
-.form__legend {
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 20px;
-    background-color: #9ba296;
 }
 
 .form__element {
     color: rgb(0, 0, 0);
-    border: 2px solid #9ba296;
+    border: 2px solid black;
     border-radius: 5px;
 }
+
 form.output {
     color: black;
-    background-color: white;
+}
+
+.article {
+    text-align: center;
 }
