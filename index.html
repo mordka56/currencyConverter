@@ -9,6 +9,7 @@
     <link rel="icon" href="images/icon.png">
     <meta property="og:image" content="images/share.png">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,11 +24,11 @@
 
 <body class="body">
     <form class="form js-form">
-        <fieldset class="form__fieldset">
+        <fieldset class="form__element">
             <legend class="form__legend">Kalkulator walut</legend>
 
-            <input placeholder="Wpisz kwotę" type="number" min="0" class="form__input js-input">
-            <select name="waluta" class="form__select js-first">
+            <input placeholder="Wpisz kwotę" type="number" min="0" class="form__element js-input">
+            <select name="waluta" class="form__element js-first">
                 <option value="1">PLN</option>
                 <option value="4.67">EUR</option>
                 <option value="4.43">USD</option>
@@ -35,8 +36,8 @@
             </select>
 
             <p>
-                <input name="number" type="number" min="0" disabled class="form__output js-output">
-                <select name="waluta" class="form__select js-second">
+                <input name="number" type="number" min="0" readonly class="form__element form__output js-output">
+                <select name="waluta" class="form__element js-second">
                     <option value="1">PLN</option>
                     <option value="4.67">EUR</option>
                     <option value="4.43">USD</option>
