@@ -12,3 +12,6 @@ html {
     background-image: url("../images/backgroundimage.jpg");
     background-size: 100%;
 }
+.paragraph{
+    text-align: center;
+}
