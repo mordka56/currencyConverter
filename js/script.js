@@ -1,15 +1,19 @@
-let formElement = document.querySelector(".js-form");
-let inputElement = document.querySelector(".js-input");
-let firstElement = document.querySelector(".js-first");
-let secondElement = document.querySelector(".js-second");
-let outputElement = document.querySelector(".js-output");
-formElement.addEventListener("input", () => {
-    let A = inputElement.value;
-    let B = firstElement.value;
-    let C = secondElement.value;
-    let output = (A * B) / C;
-    outputElement.value = output.toFixed(2);
-});
+{
+    const formElement = document.querySelector(".js-form");
+   
+
+    formElement.addEventListener("input", () => {
+        const inputElement = document.querySelector(".js-input");
+        const outputElement = document.querySelector(".js-output");
+        const firstElement = document.querySelector(".js-first");
+        const secondElement = document.querySelector(".js-second");
+        const input = inputElement.value;
+        const firstValue = firstElement.value;
+        const secondValue = secondElement.value;
+        const output = (input * firstValue) / secondValue;
+        outputElement.value = output.toFixed(2);
+    });
+}
 
 
 
