@@ -1,17 +1,19 @@
 .form {
-    background-image: url("../images/backgroundimage4.PNG");
+    background: #02023a;
     background-size: 100%;
     border: none;
     margin: auto;
-    max-width: 300px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .form__element {
     color: rgb(0, 0, 0);
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
+
 }
 
 form.output {
@@ -19,5 +21,13 @@ form.output {
 }
 
 .form__article {
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-size: 40px;
     text-align: center;
+}
+.form__fieldset{
+    border: none;
 }
